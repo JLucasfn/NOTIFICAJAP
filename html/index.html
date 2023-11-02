@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../img/LogoIco.png" type="image/x-icon">
+    <title>E-NOTIFICA</title>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <img id="img_logo" src="../img/Logo.png" alt="generic_logo">
+            <h1 id="titulo">NOTIFICA JAP</h1>
+            <p id="paragrafo_nav">Versão genérica do gerador de notificações para melhor visualização.</p>
+        </nav>
+    </header>
+
+    <div id="agrupar_div">
+        <form id="form_agrupamento">
+            <label class="label" for="valor_num">VALOR NÚMERICO:</label>
+            <input type="text" name="valor_num" id="valor_num" placeholder="Valor númerico" autocomplete="off">
+            <span id="alerta_valor_num" class="span_identificacao"></span>
+
+            <label class="label" for="valor_nome">NOME EXEMPLO:</label>
+            <input type="text" name="valor_nome" id="valor_nome" placeholder="Nome" autocomplete="off">
+            <span id="alerta_nome" class="span_identificacao"></span>
+
+            <label class="label" for="select_text">Selecione a opção de texto:</label>
+            <select name="lei" id="select_text">
+                <option selected disabled value="">Selecione</option>
+                <option value="opcao1">OPÇÃO DE TEXTO 1</option>
+                <option value="opcao2">OPÇÃO DE TEXTO 2</option>
+                <option value="opcao3">OPÇÃO DE TEXTO 3</option>
+            </select>
+            <span id="alerta_select" class="span_identificacao"></span>   
+            
+            <div id="valorescheck" class="input">
+                <p class="paragrafo">Selecione uma checkbox:</p>
+                <div class="checkbox-group">
+                    <div class="checkbox-row">
+                        <input type="checkbox" name="opcao_checkbox" id="valor1" value="VALOR 1">
+                        <label for="valor1">VALOR 1</label>
+                    </div>
+                    <div class="checkbox-row">
+                        <input type="checkbox" name="opcao_checkbox" id="valor2" value="VALOR 2">
+                        <label for="valor2">VALOR 2</label>
+                    </div>
+                </div>
+            
+                <div class="checkbox-group">
+                    <div class="checkbox-row">
+                        <input type="checkbox" name="opcao_checkbox" id="valor3" value="VALOR 3">
+                        <label for="valor3">VALOR 3</label>
+                    </div>
+                    <div class="checkbox-row">
+                        <input type="checkbox" name="opcao_checkbox" id="valor4" value="VALOR 4">
+                        <label for="valor4">VALOR 4</label>
+                    </div>
+                    
+                </div>
+            </div>
+            <span id="alerta_checkbox" class="span_identificacao"></span>
+
+
+            <button type="button" id="gerar_pdf">Gerar PDF</button>
+        </form>
+    </div>
+
+    <footer id="rodape"><small>João Lucas | © Todos os direitos reservados.</small></footer>
+
+</body>
+
+<script src="http://localhost:4000/text.js"></script>
+<script src="../js/main.js"></script>
+
+</html>

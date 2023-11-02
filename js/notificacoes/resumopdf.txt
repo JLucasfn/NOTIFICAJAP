@@ -1,0 +1,20 @@
+pdf.js - Personalização de Imagens, Fontes e Posições
+
+O arquivo pdf.js é altamente personalizável e oferece a capacidade de modificar imagens, fontes e a posição de elementos no PDF gerado. Abaixo estão as principais etapas para personalizar o código:
+
+1. Imagens:
+   - Substituir Imagens: Você pode substituir as imagens padrão (cabeçalho, assinatura e rodapé) definindo novos caminhos para as imagens desejadas. Basta atualizar os caminhos no código usando a função 'doc.image'.
+   - Redimensionar Imagens: Se necessário, você pode ajustar o tamanho das imagens usando as opções 'fit', 'x' e 'y' da função 'doc.image'.
+   
+2. Fontes:
+   - Fontes Personalizadas: Você pode adicionar suas próprias fontes personalizadas ao PDF. Primeiro, registre a fonte usando a função 'doc.registerFont' e, em seguida, defina a fonte desejada com 'doc.font'. Isso permite que você use fontes específicas no texto do PDF.
+   - Tamanhos de Fonte: Ajuste o tamanho da fonte com 'doc.fontSize' para garantir que o texto tenha o tamanho desejado.
+
+3. Posição de Texto e Imagens:
+   - Alinhamento: Você pode alinhar o texto e as imagens horizontalmente usando 'align'. Opções disponíveis incluem 'left', 'center' e 'right'.
+   - Espaçamento e Recuo: Use 'x' e 'y' para definir a posição de elementos. Isso permite que você ajuste o espaço entre os elementos e crie recuos personalizados.
+   - Texto Justificado: Para texto justificado, use a opção 'indent' para definir a margem esquerda.
+
+Lembre-se de que as modificações no código pdf.js podem afetar o layout e o estilo do PDF gerado. Ao personalizar o código, teste-o para garantir que o resultado final corresponda às suas necessidades.
+
+Essas personalizações permitem que você crie PDFs com um layout e estilo exclusivos, tornando o código pdf.js flexível e adaptável às suas preferências.
