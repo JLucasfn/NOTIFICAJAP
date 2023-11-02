@@ -57,4 +57,4 @@ Este projeto é uma versão genérica e não contém informações confidenciais
 João Lucas Freitas - https://github.com/JLucasfn.
 
 ## Licença
-Este projeto é licenciado sob a Licença CC BY-NC-ND.
+Este projeto é licenciado sob a Licença MIT.
