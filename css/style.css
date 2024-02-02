@@ -42,28 +42,10 @@ nav {
     padding-bottom: 8px;
 }
 
-.lista_nav {
-    display: inline-flex;
-    margin: 0 10px 0 10px;
-    padding-top: 10px;
-    list-style-position: inside;
-    list-style-type: none;
-}
-
 nav > img {
     padding-top: 10px;
     width: 160px;
     height: 80px;
-}
-
-#lista_nav_direita {
-    position: absolute;
-    right: 0;
-    display: inline-flex;
-}
-
-#lista_nav_direita > li{
-    margin-left: 8px;
 }
 
 #titulo {
